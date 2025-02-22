@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hello"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- TextView at the top -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="136dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <!-- Spacer to push buttons towards the bottom -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_weight="1" />
+
+    <!-- Start Game Button -->
+
+    <!-- Setting Button -->
+
+    <Button
+        android:id="@+id/settingButton"
+        android:layout_width="160dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4D080909"
+        android:text="Start Game"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/multiPlay"
+        android:layout_width="143dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4D0C0D0D"
+        android:text="Setting" />
+</LinearLayout>
